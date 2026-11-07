@@ -15,4 +15,4 @@ jobs:
           eas-version: latest
           token: ${{ secrets.EXPO_TOKEN }}
       - run: npm install
-      - run: eas build --platform android --profile preview --non-interactive
+      - run: EAS_SKIP_AUTO_FINGERPRINT=1 eas build --platform android --profile preview --non-interactive

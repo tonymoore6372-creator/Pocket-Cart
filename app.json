@@ -5,11 +5,27 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "splash": { "image": "./assets/icon.png", "resizeMode": "contain", "backgroundColor": "#FFE000" },
-    "ios": { "supportsTablet": false, "bundleIdentifier": "com.pocketcart.app" },
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFE000"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.pocketcart.app"
+    },
     "android": {
       "package": "com.pocketcart.app",
-      "adaptiveIcon": { "foregroundImage": "./assets/adaptive-icon.png", "backgroundColor": "#FFE000" }
-    }
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFE000"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "707df471-a6ac-4b2a-abb1-c3027f70ccd0"
+      }
+    },
+    "owner": "bongiemahn"
   }
 }
